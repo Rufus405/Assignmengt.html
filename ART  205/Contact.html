@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<Meta name="viewport>
+content="width=device-width,initial-scale=1.0">
+<title>Welcome to my webpage </title>
+<link rel="stylesheet"href="style.css">
+</head>
+<nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    <section class="Contact">
+    <div class="container">
+    <h1>Contact Me</h1>
+    <form id="contact-form"></form>
+<label for="name">Name:</label>
+<input type="text" id="name"
+name="name"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email"
+name="email"><br><br>
+<label for="message">Message:
+</label>
+<textarea id="message"
+name="message"></textarea><br><br>
+<input type="submit" value="Submit"
+</form>
+<div id="confirm-modal"
+class="modal"
+<div class="modal-content">
+<span class="close">&times;</span>
+<h2>Confirm Submission</h2>
+<p>Are you sure you want to sudmit this form?</p>
+<button id="confirm-btn">Yes</button>
+<button id="cancel-btn">No</button>
+    </div>
+    </section>
+    <footer>
+    <p>&copy;2024 rufussakilah. All Right Reserved</p>
+    </footer>
+    <div id="confirm-modal" class="modal">
+    <div class="modal-content"></div>
+    <span class="close-btn" id="closeconfirmModal">&times;</span>
+    <h2>Are you sure you want to submit this form?</h2>
+    <button id="cancel-btn">No</button>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
